@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+}
+
+#card {
+    max-width: 500px;
+    padding: 24px;
+    border: 2px solid #000;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+#card p {
+    margin-top: 16px;
+}
+
+.episode {
+    font-style: italic;
+}
+
+#generateBtn {
+    padding: 8px 24px;
+    font-size: 1.25rem;
+    background-color: #373737;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2em;
+    border-radius: 4px;
+}
